@@ -121,6 +121,22 @@ a:visited {
 	color: orange;
 }
 
+#leftDouble {
+	background-image: url(img/usage_grey.png);
+	background-size: cover;
+	background-origin: content-box;
+	background-repeat: no-repeat;
+
+	transition: .25s;
+	transition-timing-function: ease-in-out;
+	transition-property: background-image, border-color;
+}
+
+#leftDouble:hover {
+    background-image: url(img/usage_color.png);
+    border-color: orange;
+}
+
 #lowerText {
 	padding-top: 8.5em;
 }
