@@ -155,5 +155,5 @@ a:visited {
 
 body::after { 
 	display: none; 
-	content: url(img/background_color_small.png) url(img/block_normal_single.png); 
+	content: url(img/usage_color_small.png) url(img/block_normal_single.png); 
 }
