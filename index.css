@@ -1,6 +1,12 @@
 body {
 	font-family: "Raleway", sans-serif;
 	margin: 0;
+	-webkit-user-select: none;      
+	-moz-user-select: none;
+	-ms-user-select: none;
+
+	-o-user-select: none;
+	user-select: none;
 }
 
 nav {
@@ -141,6 +147,15 @@ a:visited {
 
 #lowerText {
 	padding-top: 8.5em;
+}
+
+#rightDouble > p {
+	/*-webkit-user-select: none;      
+	-moz-user-select: none;
+	-ms-user-select: none;
+
+	-o-user-select: none;
+	user-select: none;*/
 }
 
  *, *::after, *::before {
