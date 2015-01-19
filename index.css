@@ -4,13 +4,12 @@ body {
 }
 
 nav {
-	width: 70em;
-	padding: 2em;
-	padding: 2em 10em 0 10em;
+	padding: 2em 7.5% 0 7.5%;
 	background-image: linear-gradient(to right, #fff 0%, rgba(255, 139, 0, .5) 50%, #fff 100%);	
 	background-size: 100% 0.125em;
 	background-repeat: no-repeat;
 	background-position: 0 100%;
+	text-align: center;
 }
 
 #icon_box {
@@ -30,7 +29,7 @@ nav > a {
 }
 
 .bigBox {
-	width: 70em;
+	max-width: 70em;
 	margin: 0 auto;
 }
 
@@ -45,12 +44,13 @@ a:visited {
 .menue {
 	line-height: 94px;
 	vertical-align: middle;
+	display: inline-block;
 }
 
 .content {
 	/*border: solid 1px black;*/
 	position: relative;
-	width: 47.2em;
+	width: 67.43%;
 	vertical-align: middle;
 	margin: 0 auto;
 	display: flex;
@@ -147,5 +147,7 @@ a:visited {
 
 body::after { 
 	display: none; 
-	content: url(img/background_color_small.png) url(img/block_normal_single.png); 
+	content: url(img/usage_color_small.png) url(img/block_normal_single.png); 
 }
+
+@media screen and (max-width: 1024px) { body { color: red; } }
